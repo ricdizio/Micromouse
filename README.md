@@ -1,6 +1,6 @@
 # Micromouse
 
 
-Codigo realizado en conjunto con la agrupacion de CITE de la Universidad Simon Bolvcar para la competencia de robotica en la categoria de laberinto, realizada 7,8,9 de Noviembre de 2016
+Codigo realizado en conjunto con la agrupacion de CITE de la Universidad Simon Bolivar para la competencia de robotica en la categoria de laberinto, realizada el 7,8,9 de Noviembre de 2016
 
-Agradecimientos: Alexander Hadik
+El algoritmo flood fill para un mouse o robot inicia en la esquina del laberinto, y el objetivo (la celda objetivo) es llegar al centro del  mismo. Al inicio del codigo se asume que el laberinto no posee paredes y se le asigna a cada celda un tamaño predefinido. Al tener todo el laberinto inicializado el carrito puede comenzar su trayectoria atraves del laberinto. Al comenzar el movimiento el robot avanza una celda y actualiza su laberinto en memoria con las nuevas paredes encontradas. A continuación, el robot comprueba si el valor de la a una nueva celda y chequee si es la meta o no, luego de esto si no se encuentra en la celda destino, se procede a actualizar su celda actual y todas las anteriores incluyendo algunas sin visitar que se hayan visto afectadas por el descubrimiento de nuevas paredes dentro del laberinto. Al terminar el proceso el robot posee en su memoria la resolucion del laberinto y es capaz de llegar al centro por el camino mas optimo
